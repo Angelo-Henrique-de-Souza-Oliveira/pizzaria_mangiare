@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #b11226;
+}
+.topo{
+    background-color: #fffde7;
+}
+.nav_details{
+    background-color: #f9e5bc;
+}
+.navlink_details{
+    color: #b11226;
+    font-weight: bold;
+}
+.nav_details:hover .navlink_details:hover{
+    color: white;
+    background-color: #b11226;
+}
+.bemvindo{
+    background-color: #b11226;
+    color: #fff;
+}
+.bemvindo h2{
+    font-size: 4em;
+    font-family: 'Great Vibes', cursive;
+}
+.bemvindo p{
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Merriweather', serif;
+}
+.imgbemvindo{
+    background-image: url("../img/banner-pizza.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_details{
+    width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    object-position: center;
+    object-fit: cover;
+}
+footer{
+    bottom: 0;
+}
+.baixoinfo{
+    background-color: #fffde7;
+}
+.img_menu{
+    width: 35%;
+    height: 200px;
+    object-position: center;
+    object-fit: cover;
+}
+.desc_menu{
+    font-size: 15px;
+}
+.cat_menu{
+    background-color: #059142;
+    color: #f6f7f9;
+}
+.menubvbanner{
+    background-image: url("https://img.freepik.com/vetores-gratis/fundo-do-estilo-do-guingao_1048-2587.jpg?w=740&t=st=1671067358~exp=1671067958~hmac=759533a2b34ef53a9038006b4f170514e70d0f9b423eba458adf2664510922bb");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.menubemvindo{
+    font-size: 100px;
+    font-family: 'Great Vibes', cursive;
+}
+.menuimgbemvindo{
+    background-image: url("../img/prato.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pedir_ask{
+    background-color: #f9e5bc;
+    color: #b11226;
+    border-radius: 10px;
+}
+.img_pedir{
+    padding: 1px;
+    width: 100px;
+    height: 100px;
+    object-position: center;
+    object-fit: cover;
+}
+.cat_pedir{
+    background-color: #b11226;
+    color: #f6f7f9;
+}
+.botao_pedir{
+    width: 100%;
+    margin: 10px;
+    background-color: #059142;
+    color: #f6f7f9;
+}
+.botao_pedir:hover{
+    background-color: #4cbb17;
+    color: #f6f7f9;
+}
+.name_pedir{
+    font-size: 13px;
+}
+.desc_pedir{
+    font-size: 12px;
+}

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Mangiare!</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid topo shadow-lg h-5">
+            <div class="row align-items-end">
+                <div class="col-12 col-lg-6">
+                    <div class="container">
+                        <h1>Mangiare Pizzeria!</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <nav>
+                        <ul class="nav justify-content-center justify-content-lg-end">
+                            <li class="nav-item nav_details"><a class="nav-link navlink_details"
+                                    href="index.html">Home</a></li>
+                            <li class="nav-item nav_details"><a class="nav-link navlink_details"
+                                    href="about.html">Sobre</a></li>
+                            <li class="nav-item nav_details"><a class="nav-link navlink_details"
+                                    href="menu.html">Menu</a></li>
+                            <li class="nav-item nav_details"><a class="nav-link navlink_details" href="#">Pedir</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <form class="container bg-light p-5">
+            <div>
+                <h1 class="text-center">Faça o seu pedido</h1>
+                <div class="row">
+                    <div class="col-12 col-lg-6 mb-3">
+                        <span class="pedir_ask px-3" id="basic-addon1">Nome</span>
+                        <input type="text" class="form-control" placeholder="Nome" aria-label="Nome"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="col-12 col-lg-6 mb-3">
+                        <span class="pedir_ask px-3" id="basic-addon1">Endereço</span>
+                        <input type="text" class="form-control" placeholder="Endereço" aria-label="address"
+                            aria-describedby="basic-addon1">
+                    </div>
+                </div>
+                <div>
+                    <span class="pedir_ask px-3">Complemento</span>
+                    <textarea class="form-control" placeholder="Informações Complementares"
+                        aria-label="Complemento"></textarea>
+                </div>
+            </div>
+            <div class="p-4">
+                <h3 class="text-center">Prato(s) escolhido</h3>
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <h5 class="cat_pedir text-center">Pizzas</h5>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1594007654729-407eedc4be65?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=428&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Pizza<br> Quatro-Queijos</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Pizza Margerita</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Pizza Calabresa</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=481&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Pizza Camarão</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1552539618-7eec9b4d1796?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=502&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Pizza Baiana</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h5 class="cat_pedir text-center">Macarrões</h5>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1608897013039-887f21d8c804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=392&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Macarrão<br> Bolonhesa</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1611270629569-8b357cb88da9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Macarrão c/Queijo</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1563379926898-05f4575a45d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Macarrão c/Camarão</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=932&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Macarrão c/Molho<br> de Frango</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1595295333158-4742f28fbd85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Macarrão c/Frutos<br>do mar</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h5 class="cat_pedir text-center">Lasanhas</h5>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1560035285-64808ba47bda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Lasanha Bolonhesa</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1633436374961-09b92742047b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Lasanha c/Queijo</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1625555897305-136548cc968c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Lasanha c/Frango</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1585995207510-5d89928b13bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Lasanha á Moda <br>da casa</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1620041631703-45ddcef3dae0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Lasanha c/Frutos<br>do mar</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h5 class="cat_pedir text-center">Bebidas</h5>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1497534446932-c925b458314e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Sucos</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1527960471264-932f39eb5846?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Refrigerante</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1505252585461-04db1eb84625?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=708&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Vitaminas</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1626078436898-7c7953c04778?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Milkshakes</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+                        <div class="p-1 d-flex">
+                            <img class="img_pedir"
+                                src="https://images.unsplash.com/photo-1560148218-1a83060f7b32?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80">
+                            <div class="p-1">
+                                <h5 class="name_pedir">Vinho</h5>
+                                <label>Pedir</label>
+                                <input type="checkbox" name="pizza3">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 text-center p-4">
+                    <span class="pedir_ask px-3">Forma de Pagamento</span>
+                    <div class="row">
+                        <div class="col-12">
+                            <label>Pix</label>
+                            <input type="radio" name="pay" checked><br>
+                        </div>
+                        <div class="col-12">
+                            <label>Dinheiro</label>
+                            <input type="radio" name="pay"><br>
+                        </div>
+                        <div class="col-12">
+                            <label>Cartão</label>
+                            <input type="radio" name="pay"><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <span class="pedir_ask px-3">Extra</span>
+                    <textarea class="form-control" aria-label="Complemento"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-0 col-lg-3"></div>
+                <div class="col-0 col-lg-3"></div>
+                <div class="col-0 col-lg-3"></div>
+                <div class="col-12 col-lg-3">
+                    <button type="button" class="btn botao_pedir">Pedir</button>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container-fluid baixoinfo p-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-12 col-lg-3">
+                        <h6>Localização</h6>
+                        <p>R. Das Ametistas, 6 - Adrianópolis, Manaus - AM, 69053-590</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h6>Fale Conosco</h6>
+                        <p>092991206050</p>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h6>Cardápio</h6>
+                       <ul class="row">
+                            <a class="col-12" href="">Pizza</a>
+                            <a class="col-12" href="">Macarrões</a>
+                            <a class="col-12" href="">Lasanhas</a>
+                            <a class="col-12" href="">Bebidas</a>
+                       </ul>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <h6>Quem somos</h6>
+                        <ul class="row">
+                            <a class="col-12" href="">Estabelecimento</a>
+                            <a class="col-12" href="">Localização</a>
+                            <a class="col-12" href="">Historia</a>
+                            <a class="col-12" href="">Chef</a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
